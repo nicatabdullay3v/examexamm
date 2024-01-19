@@ -1,0 +1,56 @@
+#testi {
+    background-image: url(https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp);
+    padding: 50px 50px;
+.swiper{
+    padding: 100px 0px;
+}
+    .testi {
+        .down_text{
+            text-align: center;
+            color:  white;
+            .icon{
+                margin-bottom: 40px;
+            }
+            .note{
+                margin-top: 40px;
+                p{
+                    color:  orange;
+                    span{
+                        color: whitesmoke;
+                    }
+                }
+            }
+        }
+        .text {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                gap: 20px;
+
+                .line1 {
+                    max-width: 400px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: orange;
+                }
+
+                .line2 {
+                    max-width: 400px;
+                    width: 100%;
+                    height: 2px;
+                    background-color: orange;
+                }
+            }
+        }
+    }
+}
